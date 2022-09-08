@@ -1,0 +1,8 @@
+# General configuration
+spring:
+  cloud:
+    config:
+      # Enable overriding the properties for Spring Cloud configuration. 
+      ## That means we can override these properties in the service itself by using configurations in the config server repository itself
+      allow-override: true
+      override-none: true
