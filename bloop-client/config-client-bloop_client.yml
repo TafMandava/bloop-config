@@ -132,7 +132,7 @@ mail-config:
   mail-from: "kuvaka.padombo@gmail.com"
   mail-sender-name: "KP Support Team"
 
-  member-verification-subject: '<span style=\"font-size:14px;\"></span><span style=\"font-size:14px;\">Dear [[name]],&nbsp;<br>\r\n<br>\r\nPlease click the link below to verify your registration</span><div><br></div><div><a href=\"[[URL]]\" target=\"_self\">Verify email address</a><div><div><span style=\"font-size:14px;\"></span></div><div><span style=\"font-size:14px;\"><br>\r\nKind regards,<br>\r\nYour Beauty For You Consumer Support Team</span><div><div><span style=\"font-size:14px;\"></span><span style=\"font-size:12px;\"></span></div></div></div></div></div>'
-  member-verification-content: 'Please verify your registration'    
+  member-verification-subject: 'Please verify your registration'  
+  member-verification-content: '<span style=\"font-size:14px;\"></span><span style=\"font-size:14px;\">Dear [[name]],&nbsp;<br>\r\n<br>\r\nPlease click the link below to verify your registration</span><div><br></div><div><a href=\"[[URL]]\" target=\"_self\">Verify email address</a><div><div><span style=\"font-size:14px;\"></span></div><div><span style=\"font-size:14px;\"><br>\r\nKind regards,<br>\r\nYour Beauty For You Consumer Support Team</span><div><div><span style=\"font-size:14px;\"></span><span style=\"font-size:12px;\"></span></div></div></div></div></div>'  
 
 
