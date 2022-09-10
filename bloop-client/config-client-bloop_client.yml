@@ -60,7 +60,7 @@ spring:
   # https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.5-Release-Notes/99c8a8903c9a0a94e2ca29e520d09aee7ec6bac4
   sql:
     init:
-      mode: never
+      mode: always
 
   security:
     oauth2:
