@@ -44,13 +44,13 @@ spring:
 
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;databaseName=bloop
+    url: jdbc:sqlserver://localhost:1433;databaseName=bloop;encrypt=true;trustServerCertificate=true"
     username: SA
     password: '{cipher}6efc230b01ab6ebd8e1adba709a2e42c6bd8ab094292d65b38459686a9fd0ee46bf3bbdd024b7adb3fb0b097954c5a7b'
 
     dbcp2:
       test-while-idle: true
-      validation-query: select 1    
+      validation-query: select 1
     
     # Recommended settings
     hikari:
