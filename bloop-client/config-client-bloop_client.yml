@@ -31,7 +31,7 @@ spring:
 
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;databaseName=bloop;encrypt=true;trustServerCertificate=true
+    url: jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true
     username: SA
     password: '{cipher}c057d9f8b405044d8f234838557350ea4977237d1a41f0179966f08d062259f477a89c135a4cf3593320bf8ecd83a2c0'
 
